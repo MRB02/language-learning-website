@@ -1,0 +1,43 @@
+.lesson1,
+.lesson-videos {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 25px;
+    position: relative;
+}
+
+code {
+    background-color: rgb(225, 224, 224);
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+}
+
+.comments {
+    padding: 15px;
+    word-break: normal;
+    font-size: 18px;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    height: 400px;
+}
+
+.links-to-books {
+    margin: 35px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
